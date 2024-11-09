@@ -45,7 +45,7 @@ BreackGraph.PlayerBlockBoost = true;
 
 // имя игрового режима (устарело)
 Properties.GetContext().GameModeName.Value = "GameModes/Team Dead Match";
-TeamsBalancer.IsAutoBalance = true;
+TeamsBalancer.IsAutoBalance = false;
 Ui.GetContext().MainTimerId.Value = mainTimer.Id;
 // создаем стандартные команды
 const blueTeam = teams.create_team_blue();
